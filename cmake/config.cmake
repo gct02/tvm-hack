@@ -377,3 +377,7 @@ set(SUMMARIZE OFF)
 # To enable pass the path to the root libtorch (or PyTorch) directory
 # OFF or /path/to/torch/
 set(USE_LIBTORCH OFF)
+
+# Build with the LLVM support on
+set(USE_LLVM "/usr/bin/llvm-config --link-static")
+set(HIDE_PRIVATE_SYMBOLS ON)
